@@ -2,285 +2,128 @@
 
 Este documento deve ser preenchido pelo grupo na Semana 1 do projeto.
 
-A proposta deve apresentar uma ideia simples, clara e viável para ser desenvolvida com Python e Pygame dentro do prazo disponível.
-
 ## 1. Nome provisório do jogo
 
-Escreva aqui o nome provisório do jogo.
-
-Exemplo:
-
-> Corrida dos Obstáculos
+> Snake Evolution
 
 ## 2. Integrantes do grupo
 
-Liste os integrantes do grupo.
-
-- Nome 1:
-- Nome 2:
-- Nome 3:
-- Nome 4:
+* Nome 1: Fellipe Marzano
+* Nome 2: Hector
+* Nome 3: Raul
+* Nome 4: João Pedro
 
 ## 3. Tipo de jogo
 
-Indique o tipo de jogo que será desenvolvido.
-
-Exemplos:
-
-- jogo de desviar de obstáculos;
-- jogo de coleta de itens;
-- labirinto simples;
-- jogo de perguntas e respostas;
-- jogo de memória;
-- Pong;
-- Snake;
-- Breakout;
-- nave desviando de meteoros;
-- corrida simples com obstáculos;
-- jogo de clique rápido;
-- jogo de sobrevivência simples.
-
 Tipo escolhido pelo grupo:
 
-> Escreva aqui.
+> Snake
 
 ## 4. Descrição geral do jogo
 
-Explique, em poucas linhas, como o jogo funcionará.
-
-Procure responder:
-
-- O que aparece na tela?
-- O que o jogador controla?
-- O que o jogador precisa fazer?
-- Quais desafios aparecem durante a partida?
-
 Descrição:
 
-> Escreva aqui.
+> O jogo será inspirado no clássico Snake. O jogador controla uma cobra que se move pela tela em busca de alimentos. Cada alimento coletado faz a cobra crescer e aumenta a pontuação. O desafio é continuar coletando alimentos sem colidir com as paredes ou com o próprio corpo da cobra.
 
 ## 5. Objetivo do jogador
 
-Explique qual é o objetivo principal do jogador.
-
-Exemplos:
-
-- coletar o maior número possível de itens;
-- sobreviver pelo maior tempo possível;
-- chegar até o final do labirinto;
-- acertar alvos;
-- responder perguntas corretamente;
-- evitar obstáculos;
-- quebrar todos os blocos.
-
 Objetivo:
 
-> Escreva aqui.
+> Coletar o maior número possível de alimentos, aumentando a pontuação e o tamanho da cobra sem sofrer colisões.
 
 ## 6. Regras principais
 
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador começa com 3 vidas.
-- Cada moeda coletada vale 10 pontos.
-- Cada colisão com obstáculo remove 1 vida.
-- A partida termina quando as vidas chegam a zero.
-- O jogador vence se alcançar 100 pontos.
-
 Regras do grupo:
 
-- Regra 1:
-- Regra 2:
-- Regra 3:
-- Regra 4:
-- Regra 5:
+* A cobra se move continuamente pelo mapa.
+* O jogador controla a direção da cobra usando o teclado.
+* Cada alimento coletado aumenta a pontuação e o tamanho da cobra.
+* Se a cobra colidir com uma parede, o jogo termina.
+* Se a cobra colidir com o próprio corpo, o jogo termina.
 
 ## 7. Condição de vitória
 
-Explique como o jogador vence ou conclui o jogo.
-
-Exemplos:
-
-- atingir determinada pontuação;
-- chegar ao final da fase;
-- sobreviver até o tempo acabar;
-- responder uma quantidade mínima de perguntas;
-- quebrar todos os blocos.
-
 Condição de vitória:
 
-> Escreva aqui.
+> O jogador vence ao atingir 50 pontos.
 
 ## 8. Condição de derrota ou encerramento
 
-Explique como o jogador perde ou quando a partida termina.
-
-Exemplos:
-
-- perder todas as vidas;
-- acabar o tempo;
-- colidir com determinado obstáculo;
-- errar muitas perguntas;
-- deixar a bola cair, no caso de Breakout ou Pong.
-
 Condição de derrota ou encerramento:
 
-> Escreva aqui.
+> O jogo termina quando a cobra colide com uma parede ou com o próprio corpo.
 
 ## 9. Elementos previstos no jogo
 
-Descreva os principais elementos que farão parte do jogo.
-
-## Jogador ou elemento principal
-
-Exemplo:
-
-> Um personagem controlado pelas setas do teclado.
+### Jogador ou elemento principal
 
 Descrição:
 
-> Escreva aqui.
+> Uma cobra controlada pelo jogador através das setas do teclado.
 
-## Obstáculos, inimigos ou desafios
-
-Exemplo:
-
-> Obstáculos aparecem em posições aleatórias e devem ser evitados.
+### Obstáculos, inimigos ou desafios
 
 Descrição:
 
-> Escreva aqui.
+> As paredes do mapa e o próprio corpo da cobra funcionam como obstáculos que devem ser evitados.
 
-## Itens, alvos ou objetos de interação
-
-Exemplo:
-
-> Moedas aparecem na tela e aumentam a pontuação quando coletadas.
+### Itens, alvos ou objetos de interação
 
 Descrição:
 
-> Escreva aqui.
+> Alimentos aparecem aleatoriamente no mapa e devem ser coletados pela cobra.
 
-## Pontuação, vidas, tempo ou progresso
-
-Exemplo:
-
-> O jogador começa com 3 vidas e ganha 10 pontos por item coletado.
+### Pontuação, vidas, tempo ou progresso
 
 Descrição:
 
-> Escreva aqui.
+> Cada alimento coletado aumenta a pontuação em 1 ponto. O progresso é medido pela pontuação e pelo tamanho da cobra.
 
 ## 10. Controles previstos
 
-Informe os comandos que serão utilizados pelo jogador.
-
-Exemplo:
-
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
-
 Controles do grupo:
 
-- Tecla/comando:
-- Tecla/comando:
-- Tecla/comando:
+* Seta para cima: mover para cima
+* Seta para baixo: mover para baixo
+* Seta para esquerda: mover para esquerda
+* Seta para direita: mover para direita
+* ESC: sair do jogo
 
 ## 11. Organização inicial do código
 
-Explique como o grupo pretende organizar o código.
-
-Exemplo:
-
-- `main.py`: inicia o jogo;
-- `src/jogo.py`: contém o loop principal;
-- `src/config.py`: guarda configurações como tamanho da tela e cores;
-- `src/funcoes.py`: contém funções auxiliares;
-- `src/dados.py`: contém funções de leitura e escrita de arquivos.
-
 Organização planejada:
 
-> Escreva aqui.
-
+* `main.py`: inicia o jogo;
+* `src/jogo.py`: contém o loop principal;
+* `src/cobra.py`: controla a movimentação e crescimento da cobra;
+* `src/comida.py`: gera e controla os alimentos;
+* `src/config.py`: configurações do jogo;
+* `src/dados.py`: armazenamento de recordes.
 
 ## 12. Recursos externos previstos
 
-Informe se o grupo pretende utilizar imagens, sons, fontes, tutoriais ou códigos externos.
-
-Exemplo:
-
-- imagens obtidas de banco gratuito;
-- sons gratuitos;
-- tutorial usado apenas como referência;
-- fonte personalizada.
-
 Recursos previstos:
 
-> Escreva aqui.
-
-Caso não pretenda utilizar recursos externos, escreva:
-
-> Não pretendemos utilizar recursos externos.
+> Imagens gratuitas para a cobra e os alimentos, sons gratuitos para coleta de itens e efeitos de fim de jogo.
 
 ## 13. Principais dificuldades esperadas
 
-Liste as dificuldades que o grupo acredita que poderá enfrentar.
-
-Exemplos:
-
-- movimentação do jogador;
-- colisão entre objetos;
-- controle de tempo;
-- criação do ranking;
-- organização do código;
-- uso do GitHub;
-- testes;
-- exibição de textos na tela.
-
 Dificuldades previstas:
 
-- Dificuldade 1:
-- Dificuldade 2:
-- Dificuldade 3:
+* Implementação correta do crescimento da cobra.
+* Detecção de colisões.
+* Salvamento e carregamento de recordes.
 
 ## 14. Escopo mínimo para a entrega final
 
-Descreva qual será a versão mínima aceitável do jogo.
-
-Esta seção é importante para evitar que o grupo escolha uma ideia grande demais.
-
-Exemplo:
-
-> A versão mínima do jogo terá um personagem controlado pelo teclado, obstáculos aparecendo na tela, sistema de vidas, sistema de pontuação e tela de fim de jogo.
-
 Escopo mínimo:
 
-> Escreva aqui.
+> A versão mínima do jogo terá uma cobra controlada pelo teclado, alimentos gerados aleatoriamente, sistema de crescimento, sistema de pontuação, detecção de colisões e tela de fim de jogo.
 
 ## 15. Possíveis melhorias, caso haja tempo
 
-Liste funcionalidades extras que o grupo poderá implementar se conseguir concluir o escopo mínimo.
-
-Exemplos:
-
-- tela inicial;
-- sons;
-- fases;
-- aumento de dificuldade;
-- ranking;
-- animações;
-- novos tipos de obstáculos;
-- diferentes personagens;
-- menu de pausa.
-
 Melhorias possíveis:
 
-- Melhoria 1:
-- Melhoria 2:
-- Melhoria 3:
+* Tela inicial.
+* Sistema de ranking com recordes.
+* Aumento progressivo da velocidade conforme a pontuação aumenta.
