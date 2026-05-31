@@ -1,91 +1,108 @@
-# Nome do Jogo
+# Snake Evolution
 
 Projeto final da disciplina de Introdução a Algoritmos/Programação, desenvolvido com Python e Pygame.
 
-Este repositório é um template para os grupos da disciplina. A proposta é começar com uma base funcional e evoluir o jogo ao longo do semestre.
+Este jogo é inspirado no clássico Snake, onde o jogador controla uma cobra que cresce ao coletar alimentos espalhados pelo mapa.
 
-## Integrantes do grupo
+## Integrantes do Grupo
 
-- Nome do integrante 1
-- Nome do integrante 2
-- Nome do integrante 3
-- Nome do integrante 4
+* Fellipe Marzano
+* Hector
+* Raul
+* João Pedro
 
-## Estrutura do projeto
+## Estrutura do Projeto
 
-- `main.py`: ponto de entrada da aplicação.
-- `src/`: código-fonte principal do jogo (loop, regras, sprites e dados).
-- `assets/`: imagens, fontes e sons.
-- `data/`: arquivos persistentes (recorde/ranking).
-- `tests/`: testes unitários com `pytest`.
-- `docs/`: documentação do projeto, incluindo proposta inicial.
+* `main.py`: ponto de entrada da aplicação.
+* `src/`: código-fonte principal do jogo.
+* `assets/`: imagens, fontes e sons.
+* `data/`: arquivos persistentes (recorde/ranking).
+* `tests/`: testes unitários com pytest.
+* `docs/`: documentação do projeto, incluindo a proposta inicial.
 
-## Descrição do jogo
+## Descrição do Jogo
 
-Descreva brevemente a ideia principal do jogo.
+O jogador controla uma cobra que se move continuamente pelo mapa. Durante a partida, alimentos aparecem em posições aleatórias e devem ser coletados para aumentar a pontuação e o tamanho da cobra.
 
-Exemplo:
+O desafio é sobreviver o máximo possível sem colidir com as paredes ou com o próprio corpo.
 
-> O jogo consiste em controlar um personagem que deve coletar moedas e evitar obstáculos. O jogador ganha pontos ao coletar itens e perde vidas ao colidir com obstáculos. A partida termina quando o tempo acaba ou quando o jogador perde todas as vidas.
+## Objetivo do Jogador
 
-## Objetivo do jogador
+Coletar o maior número possível de alimentos para aumentar a pontuação e crescer a cobra, evitando colisões que encerram a partida.
 
-Explique o que o jogador precisa fazer para vencer ou avançar no jogo.
+## Regras do Jogo
 
-Exemplo:
-
-> O objetivo é coletar a maior quantidade possível de itens antes que o tempo acabe, evitando colisões com os obstáculos.
-
-## Regras do jogo
-
-Liste as principais regras do jogo.
-
-Exemplo:
-
-- O jogador se movimenta usando as setas do teclado.
-- Cada item coletado aumenta a pontuação.
-- Colidir com um obstáculo reduz a quantidade de vidas.
-- A partida termina quando o jogador perde todas as vidas ou quando o tempo acaba.
+* O jogador controla a direção da cobra usando as setas do teclado.
+* A cobra cresce ao coletar alimentos.
+* Cada alimento coletado aumenta a pontuação.
+* Colidir com uma parede encerra a partida.
+* Colidir com o próprio corpo encerra a partida.
+* O jogador vence ao atingir a pontuação definida pelo grupo.
 
 ## Controles
 
-Informe as teclas ou comandos utilizados no jogo.
+* Seta para cima: mover para cima
+* Seta para baixo: mover para baixo
+* Seta para esquerda: mover para esquerda
+* Seta para direita: mover para direita
+* ESC: sair do jogo
 
-Exemplo:
+## Como Executar o Projeto
 
-- Seta para cima: mover para cima
-- Seta para baixo: mover para baixo
-- Seta para esquerda: mover para esquerda
-- Seta para direita: mover para direita
-- Espaço: realizar ação
-- ESC: sair do jogo
-
-## Como executar o projeto
-
-### 1. Clonar o repositório
+### 1. Clonar o Repositório
 
 ```bash
 git clone LINK_DO_REPOSITORIO
+```
+
+### 2. Entrar na Pasta do Projeto
+
+```bash
 cd NOME_DA_PASTA
+```
+
+### 3. Instalar Dependências
+
+```bash
 pip install -r requirements.txt
+```
+
+### 4. Executar o Jogo
+
+```bash
 python main.py
 ```
 
-## Como executar os testes
+## Como Executar os Testes
 
 ```bash
 python -m pytest
 ```
 
-## Checklist mínimo para entrega
+## Checklist Mínimo para Entrega
 
-- Preencher este README com nome final, descrição real, regras e controles do jogo.
-- Atualizar `docs/proposta.MD` com a proposta do grupo.
-- Garantir que o jogo executa com `python main.py`.
-- Garantir que os testes passam com `pytest`.
+* [x] Preencher README com descrição, regras e controles do jogo.
+* [x] Atualizar `docs/proposta.md` com a proposta do grupo.
+* [ ] Garantir que o jogo executa com `python main.py`.
+* [ ] Garantir que os testes passam com `pytest`.
 
-## Observações para os alunos
+## Tecnologias Utilizadas
 
-- Mantenham o código organizado em módulos pequenos e com responsabilidade clara.
-- Comentem partes importantes da lógica, principalmente regras do jogo.
-- Registrem decisões técnicas no README do grupo ao longo do desenvolvimento.
+* Python
+* Pygame
+* Pytest
+* Git e GitHub
+
+## Possíveis Melhorias Futuras
+
+* Sistema de ranking.
+* Aumento progressivo da velocidade.
+* Tela inicial.
+* Menu de pausa.
+* Efeitos sonoros.
+* Animações.
+* Diferentes temas de mapa.
+
+## Observações
+
+O projeto será desenvolvido de forma incremental durante o semestre, buscando manter o código organizado, modularizado e documentado para facilitar a manutenção e evolução do jogo.
