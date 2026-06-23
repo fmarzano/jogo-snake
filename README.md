@@ -10,6 +10,7 @@ Este jogo é inspirado no clássico Snake, onde o jogador controla uma cobra que
 * Hector
 * Raul
 * João Pedro
+* Lucas Oliveira Dias
 
 ## Estrutura do Projeto
 
