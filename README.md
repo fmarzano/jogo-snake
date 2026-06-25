@@ -7,9 +7,10 @@ Este jogo é inspirado no clássico Snake. O jogador controla uma cobra que cres
 ## Integrantes do Grupo
 
 * Fellipe Marzano
-* Hector
-* Raul
-* João Pedro
+* Hector Paulo 
+* Raul Rocha
+* João Pedro Faria Lemos
+* Lucas Oliveira Dias
 
 ## Estrutura do Projeto
 
